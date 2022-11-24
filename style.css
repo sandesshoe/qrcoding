@@ -1,0 +1,41 @@
+body{
+background-color: lightgray;
+margin: 0;
+padding: 0;
+
+display: inline-flexbox;
+align-items: center;
+}
+#qrcode{
+width:340px;
+margin: 200px auto;
+border-radius: 30px;
+background-color: white;
+position: sticky;
+padding-bottom: 30px;
+}
+
+#qrcode img{
+width: 310px;
+padding: 15px;
+border-radius: 30px;
+
+}
+#qrcode h3{
+margin: 10px auto;
+line-height: 1,5;
+text-align: center;
+font-size: 25px;
+}
+#qrcode p{
+    padding:0  10px;
+    font-size: 18px;
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+.attribution { 
+font-size: 11px; text-align: center; 
+}
+.attribution a{ 
+color: hsl(228, 45%, 44%); 
+}
